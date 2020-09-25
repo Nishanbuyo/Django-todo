@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'todo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'genese_lab2',
-        'USER': 'tnahsoe',
-        'PASSWORD': 'labassignment2',
-        'HOST': 'database-1.cyfagcvdglvq.us-east-1.rds.amazonaws.com',
+        'NAME': 'xxxxxxxx',   #database name
+        'USER': 'xxxxxxxx',       #username       
+        'PASSWORD': 'xxxxxxxx',   #password
+        'HOST': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',   # aws rds endpoint
         'PORT': '3306',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
